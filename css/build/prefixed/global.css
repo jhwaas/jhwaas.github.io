@@ -460,7 +460,7 @@ body #wrapper main {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 60%;
+  width: 65%;
   height: 600px;
 }
 
@@ -472,12 +472,12 @@ body #wrapper main {
 
 .intro code {
   font-family: "Computer Modern Typewriter";
-  color: #FF4E50;
+  color: white;
   text-decoration: underline;
 }
 
 .intro p.contact {
-  font-size: 150%;
+  font-size: 180%;
 }
 
 .intro p.adres {

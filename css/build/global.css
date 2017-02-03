@@ -431,6 +431,7 @@ body #wrapper main {
   font-size: 180%;
 }
 .intro p.adres {
+  display: none;
   position: fixed;
   right: 60px;
   bottom: 30px;
@@ -450,17 +451,12 @@ body #wrapper main {
   stroke-width: 10;
 }
 
-#fullpage {
-  background: url(/images/_background.jpg);
-  background-attachment: fixed;
-}
-
 /* Computer modern webfont */
 @font-face {
   font-family: 'Computer Modern Serif';
   src: url("/fonts/cmunti.eot");
   src: url("/fonts/cmunti.eot?#iefix") format("embedded-opentype"), url("/fonts/cmunti.woff") format("woff"), url("/fonts/cmunti.ttf") format("truetype"), url("/fonts/cmunti.svg#cmunti") format("svg");
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic;
 }
 @font-face {
